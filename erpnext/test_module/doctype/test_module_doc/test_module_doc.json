@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "creation": "2021-04-07 21:32:56.497667",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "doc_num",
+  "data_2",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "doc_num",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Doc Num",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "test_module_doc",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-04-07 21:32:56.497667",
+ "modified_by": "Administrator",
+ "module": "Test Module",
+ "name": "test_module_doc",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
